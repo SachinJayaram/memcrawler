@@ -2,6 +2,10 @@
 
 Audit and defend your AI memory. Detect injection attacks. Know what persists.
 
+<p align="center">
+  <img src="assets/memcrawler.png" alt="Mem Crawler landing page — hero with headline Know What Your AI Remembers and install CTAs" width="780" />
+</p>
+
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue)](https://www.typescriptlang.org/)
 [![pnpm](https://img.shields.io/badge/pnpm-workspace-orange)](https://pnpm.io/workspaces)
@@ -244,6 +248,7 @@ Mem Crawler ships with detection rules targeting MINJA and related patterns. Eve
 
 ```text
 memcrawler/
+├── assets/                 # README images, etc.
 ├── index.html              # Landing page (Vite entry for dev:landing)
 ├── vite.landing.config.ts  # Root Vite config for landing + web/main.tsx
 ├── web/
