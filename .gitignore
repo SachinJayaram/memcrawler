@@ -1,0 +1,60 @@
+# Accidental nested clone at repo root (contains its own .git)
+/memcrawler/
+
+# Dependencies
+node_modules/
+
+# Package managers
+.pnpm-store/
+pnpm-debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Builds & outputs
+dist/
+dist-landing/
+build/
+out/
+.next/
+.turbo/
+
+# TypeScript
+*.tsbuildinfo
+
+# Tests & coverage
+coverage/
+.vitest/
+
+# Environment (keep example files if you add them)
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors / IDEs
+.idea/
+*.swp
+*.swo
+*~
+
+# Optional: uncomment if you don’t commit personal VS Code settings
+# .vscode/*
+# !.vscode/extensions.json
+
+# Logs & temp
+*.log
+tmp/
+temp/
+.cache/
+
+# Tauri / Rust (if you add a Tauri shell later)
+**/src-tauri/target/
+
+# Extension / Playwright (if added)
+playwright-report/
+test-results/
+.blobstore/
