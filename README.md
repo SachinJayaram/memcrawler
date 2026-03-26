@@ -281,4 +281,4 @@ Do not use public issues for undisclosed vulnerabilities. Use [GitHub Security A
 
 ## License
 
-Apache 2.0 — see the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0) text. Add a root `LICENSE` file in the repository when you publish the project.
+Apache 2.0 — see [`LICENSE`](LICENSE) in this repository and the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0) text.
